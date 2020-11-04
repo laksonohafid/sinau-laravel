@@ -1,4 +1,4 @@
-@extends('master')
+<!-- @extends('master')
 @section('title', 'about')
 
 @section('content')
@@ -35,4 +35,4 @@ Migration, menyediakan sistem kontrol untuk skema database.
 Unit Testing, banyak tes untuk mendeteksi dan mencegah regresi.
 Automatic Pagination, menyederhanakan tugas dari penerapan halaman.</p>
 </div>
-@endsection
+@endsection -->

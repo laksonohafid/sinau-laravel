@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Member;
 use Illuminate\Http\Request;
 
-class SiswaController extends Controller
+class MemberController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,8 +14,9 @@ class SiswaController extends Controller
      */
     public function index()
     {
-        //untuk menampilkan view data
-        return "ini adalah index";
+        //
+    //      $member = member::all();
+    //     return view('member.index', compact('member'));
     }
 
     /**
@@ -24,7 +26,8 @@ class SiswaController extends Controller
      */
     public function create()
     {
-        //untuk menampilkan form penambahan data
+        //
+         return view('member');
     }
 
     /**
@@ -35,7 +38,9 @@ class SiswaController extends Controller
      */
     public function store(Request $request)
     {
-        //untuk mengirim data ke database
+        //
+        member::create($request->all());
+        return redirect('/member');
     }
 
     /**
@@ -46,7 +51,7 @@ class SiswaController extends Controller
      */
     public function show($id)
     {
-        //menampilkan hasil
+        //
     }
 
     /**
@@ -57,7 +62,7 @@ class SiswaController extends Controller
      */
     public function edit($id)
     {
-        //untuk mengedit
+        //
     }
 
     /**
@@ -69,7 +74,7 @@ class SiswaController extends Controller
      */
     public function update(Request $request, $id)
     {
-        // untuk memperbarui
+        //
     }
 
     /**
@@ -80,6 +85,6 @@ class SiswaController extends Controller
      */
     public function destroy($id)
     {
-        // untuk menghapus
+        //
     }
 }

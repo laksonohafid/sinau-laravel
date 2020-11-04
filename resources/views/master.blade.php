@@ -8,7 +8,7 @@
 </head>
 <style>
     body{
-        background: url("bg/3.jpg") no-repeat fixed;
+        background: url("bg/satu.jpg") no-repeat fixed;
         background-size: cover;
         background-position: absolute;
     }

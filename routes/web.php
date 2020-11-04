@@ -14,13 +14,18 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('beranda');
 });
 
-
-Route::get('/about', function () {
-    return view('about');
+Route::get('/datamember', function () {
+    return view('index');
 });
+// Route::get('/tentangkopi', function () {
+//     return view('tentangkopi');
+// });
+
+Route::get('/member', 'MemberController@create');
+Route::post('/member', 'MemberController@store');
 
 
 
