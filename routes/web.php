@@ -20,12 +20,13 @@ Route::get('/', function () {
 Route::get('/datamember', function () {
     return view('index');
 });
-// Route::get('/tentangkopi', function () {
-//     return view('tentangkopi');
-// });
 
-Route::get('/member', 'MemberController@create');
-Route::post('/member', 'MemberController@store');
+
+//Route crud
+Route::get('/member','MemberController@index');
+
+// Route::get('/member', 'MemberController@create');
+// Route::post('/member', 'MemberController@store');
 
 
 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Member;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class MemberController extends Controller
 {
@@ -14,9 +15,13 @@ class MemberController extends Controller
      */
     public function index()
     {
-        //
-    //      $member = member::all();
-    //     return view('member.index', compact('member'));
+
+        // mengambil data dari table daftar member
+        $member = DB::table('members')->get();
+ 
+        // mengirim data pegawai ke view index
+        return view('index',['members' => $member]);
+ 
     }
 
     /**
