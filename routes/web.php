@@ -17,16 +17,17 @@ Route::get('/', function () {
     return view('beranda');
 });
 
-Route::get('/datamember', function () {
+Route::get('/member', function () {
     return view('index');
 });
 
 
 //Route crud
 Route::get('/member','MemberController@index');
+Route::get('/tambah', 'MemberController@create');
+Route::post('/member', 'MemberController@store');
 
-// Route::get('/member', 'MemberController@create');
-// Route::post('/member', 'MemberController@store');
+
 
 
 

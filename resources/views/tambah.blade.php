@@ -19,7 +19,7 @@
 
 <div class="bg-transparant">
 	<div class="card-body">
-		<h5 class="text-center">Daftar Member</h5>
+		<h5 class="text-center">Tambah Member</h5>
 		<hr>
 		<form action="/member" method="post">
 			@csrf
