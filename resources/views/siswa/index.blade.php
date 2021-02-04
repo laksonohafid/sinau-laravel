@@ -6,7 +6,7 @@
 	<div class="col-md-12 mb-3">
 		<h1 class="text-center">Data Siswa</h1>
 	</div>
-	<table class="table table-striped table-hover">
+	<table class="table table-striped">
 		<thead class="" style="font-size: 20px; background-color: white;">
 			<th class="text-center">No.</th>
 			<th class="text-center">NISN</th>

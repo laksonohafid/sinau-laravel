@@ -26,7 +26,8 @@
             .flex-center {
                 align-items: center;
                 display: flex;
-                justify-content: center;
+                justify-content: left;
+                padding-left: 15px;
             }
             .position-ref {
                 position: relative;
@@ -37,10 +38,11 @@
                 top: 18px;
             }
             .content {
-                text-align: center;
+                text-align: left;
+
             }
             .title {
-                font-size: 70px;
+                font-size: 55px;
             }
             .links > a {
                 color: black;
@@ -55,7 +57,9 @@
                 margin-bottom: 30px;
             }
             img {
-              width: 120px;
+              width: 300px;
+              float: right;
+              margin-top: auto;
             }
         </style>
     </head>
