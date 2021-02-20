@@ -1,44 +1,29 @@
-  <!-- <nav class="navbar navbar-expand-lg">
-  <div class="container">
-    <a class="navbar-brand scroll" href="/" style="font-size: 25px;">
-      <img src="/bg/smk1.png" width="50" height="40" class="d-inline-block align-top">
-      Smkn 1 Surabaya</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FFE4B5">
+ 
+    <a class="navbar-brand" href="#"></a>
+    <img src="/bg/smk1.png" width="45" height="30" class="d-inline-block align-top"></a>
+ 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link navbar-right scroll" href="/about" id="underlined">About<span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link navbar-right scroll" href="/datasiswa" id="underlined">Data Siswa</a>
-        <a class="nav-item nav-link navbar-right scroll" href="/contact" id="underlined">Contact</a>
-      </div>
-    </div>
-  </div>
-</nav> -->
-<nav class="navbar navbar-expand-lg navbar-light" style= "background-color:#FF8C00;">
-  <div class="container-fluid">
-  <a class="navbar-brand scroll" href="/" style="font-size: 25px;">
-      <img src="/bg/smk1.png" width="65" height="50" class="d-inline-block align-top"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
+ 
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+ 
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
           <a class="nav-link" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/about">About</a>
+          <a class="nav-link" href="/about">Tentang</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/datasiswa">Data Murid</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/datasiswa/create">Tambah Data</a>
-        </li>
-          </ul>
-        </li>
       </ul>
-    </div>
-  </div>
+ 
+      <a href="{{route('login')}}" class="btn btn-outline-success mr-3" style="font-size: 10px">Login</a>
+      <a href="{{route('logout')}}" class="btn btn-outline-danger" style="font-size: 10px">Logout</a>
+ 
+   </div>
+ 
 </nav>

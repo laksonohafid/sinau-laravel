@@ -20,7 +20,8 @@
 			    <label for="inputAddress2">Alamat</label>
 			    <input value="{{ $siswa->alamat }}" name="alamat" type="text" class="form-control">
 			  </div>
-			  <button type="submit" class="btn btn-primary">Perbarui</button>
+			  <a class="btn btn-danger" href="/datasiswa" type="button" style="font-size: 12px">Kembali</a>
+			  <button type="submit" class="btn btn-success" style="font-size: 12px">Simpan</button>
 			</form>
 		</div>
 @endsection

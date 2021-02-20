@@ -1,10 +1,9 @@
-@extends('master')
+<!-- @extends('master')
 @section('title', 'Data Siswa')
 
 @section('content')
 <div class="container" style="margin-top: 15px;">
 	<div class="col-md-12 mb-3">
-		<h1 class="text-center">Data Siswa</h1>
 	</div>
 	<a class="btn btn-success" href="/datasiswa/create" type="button" style="margin-bottom: 10px;">Tambah Data Siswa +</a>
 	<table class="table table-striped">
@@ -17,4 +16,4 @@
 		</thead>
 	</table>
 </div>
-@endsection
+@endsection -->
